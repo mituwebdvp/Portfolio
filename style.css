@@ -1,0 +1,41 @@
+* {
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+}
+
+.wrapper {
+   width:400px;
+   margin:0 auto;
+   background:#85a024; 
+   height:300px; 
+} 
+
+.left {
+   height:200px;
+   width:100px;
+   background:blueviolet;
+   float:left;
+}
+
+.right {
+   height:250px;
+   width:150px;
+   background:rgb(4, 116, 120);
+   float:right;
+}
+
+.footer {
+   width:400px;
+   height:100px;
+   background:rgb(208, 80, 255);
+   margin: 0 auto;
+}
+
+.clearfix::after {
+   content:"";
+   display:block;
+   clear:both;
+}
+
+
